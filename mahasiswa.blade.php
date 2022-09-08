@@ -13,7 +13,7 @@
             <br>
             @foreach ($nilai as $val)
                 @if ($val < 50)
-                    @break
+                    @continyu/break
                 @endif
                 <div class="alert alert-success d-inline-block">
                     {{$val}}
